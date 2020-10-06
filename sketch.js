@@ -32,7 +32,7 @@ function setup() {
 		friction:0.5,
 		density:1.2
 	}
-	paperObject=Bodies.circle(100,100,40,options)
+	paperObject=Bodies.circle(120,100,40,options)
 	World.add(world, paperObject);
    var rect_options={
 	   isStatic:true
